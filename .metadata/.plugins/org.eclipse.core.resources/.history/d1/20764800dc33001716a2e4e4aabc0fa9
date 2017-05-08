@@ -1,0 +1,9 @@
+grammar com.capstone.Dsl with org.eclipse.xtext.common.Terminals
+
+generate dsl "http://www.capstone.com/Dsl"
+
+Model:
+	greetings+=Greeting*;
+	
+Greeting:
+	'Hello' name=ID '!';

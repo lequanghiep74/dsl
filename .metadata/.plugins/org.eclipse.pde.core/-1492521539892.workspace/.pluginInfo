@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<bundle bundleID="512" localization="OSGI-INF/l10n/bundle" name="com.capstone.dsl" project="com.capstone.dsl" provider="My Company"/>
+	<bundle bundleID="514" localization="OSGI-INF/l10n/bundle" name="com.capstone.dsl.ui" project="com.capstone.dsl.ui" provider="My Company"/>
+	<bundle bundleID="513" localization="OSGI-INF/l10n/bundle" name="com.capstone.dsl.tests" project="com.capstone.dsl.tests" provider="My Company"/>
+</map>

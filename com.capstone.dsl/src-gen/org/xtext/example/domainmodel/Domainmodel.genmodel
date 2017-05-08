@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/com.capstone.dsl/src-gen" editDirectory="/com.capstone.dsl.edit/src"
+    editorDirectory="/com.capstone.dsl.editor/src" modelPluginID="com.capstone.dsl"
+    forceOverwrite="true" modelName="Domainmodel" updateClasspath="false" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    complianceLevel="5.0" copyrightFields="false" editPluginID="com.capstone.dsl.edit"
+    editorPluginID="com.capstone.dsl.editor" runtimeVersion="2.8">
+  <genPackages prefix="Domainmodel" basePackage="org.xtext.example.domainmodel" disposableProviderFactory="true"
+      ecorePackage="Domainmodel.ecore#/">
+    <genClasses ecoreClass="Domainmodel.ecore#//Model">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Domainmodel.ecore#//Model/myDSL"/>
+    </genClasses>
+    <genClasses ecoreClass="Domainmodel.ecore#//myDSL">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Domainmodel.ecore#//myDSL/name"/>
+    </genClasses>
+    <genClasses ecoreClass="Domainmodel.ecore#//Define"/>
+    <genClasses ecoreClass="Domainmodel.ecore#//Function"/>
+  </genPackages>
+</genmodel:GenModel>
